@@ -1,5 +1,7 @@
-babymonitor
-the webinterface
+babymonitor 
+the webinterface  
+  
+![Screenshot](https://github.com/thehawkes/babymonitor/raw/master/screenshot.jpg)
 
 build with:  
 *   [flask](http://flask.pocoo.org/)  
