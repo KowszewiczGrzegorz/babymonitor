@@ -25,9 +25,9 @@ or compile it on your own
 Testing:
 
 
-Live Video should be available @ http://<<monitor ip>>:8080/?action=stream
+Live Video should be available @ http://&lt;monitor ip&gt;:8080/?action=stream
 
 Audio:
     start "start-stream-input.sh" on the receiver and 
 
-        aplay <<your fifo configured in start-stream-input.sh>>
+        aplay <your fifo configured in start-stream-input.sh>

@@ -76,4 +76,4 @@ restart
     /etc/init.d/nginx restart
 
 
-the website should be up on http://<<your receiver ip>>
+the website should be up on http://&lt;your receiver ip&gt;
