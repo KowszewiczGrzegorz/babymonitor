@@ -11,9 +11,11 @@ from logging.handlers import RotatingFileHandler
 
 
 #Fifo Audio
-FILE = "/var/www/babyfone/pifone.mp3"
+FILE = "pifone.mp3"
 #mjpg stream url
 VIDEO = "http://pifone.home:8080"
+#log
+LOGFILE = "babymonitor.log"
 
 Commands = [ "play",
              "stop",
@@ -21,7 +23,6 @@ Commands = [ "play",
              "status",
            ]
 
-LOGFILE = "/var/www/babyfone/logs/babyfone.log"
 
 app = Flask(__name__) 
 app.config['PROPAGATE_EXCEPTIONS'] = True

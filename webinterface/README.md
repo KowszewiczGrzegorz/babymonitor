@@ -15,7 +15,7 @@ dependencies:
 
 
 usage:  
-*   change FILE & VIDEO according to your setup  
+*   change FILE, VIDEO & LOGFILE according to your setup  
 
 as standalone:
 
