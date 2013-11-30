@@ -1,21 +1,21 @@
-babymonitor 
-the webinterface  
-  
+babymonitor
+the webinterface
+
 ![Screenshot](https://github.com/thehawkes/babymonitor/raw/master/screenshot.jpg)
 
-build with:  
-*   [flask](http://flask.pocoo.org/)  
-*   [twitter bootstrap](http://twitter.github.io/bootstrap/)  
-*   [jquery](http://jquery.com/)  
+build with:
+*   [flask](http://flask.pocoo.org/)
+*   [twitter bootstrap](http://twitter.github.io/bootstrap/)
+*   [jquery](http://jquery.com/)
 
 
-dependencies:  
-*   python-alsaaudio  
-*   python-flask  
+dependencies:
+*   python-alsaaudio
+*   python-flask
 
 
-usage:  
-*   change FILE, VIDEO & LOGFILE according to your setup  
+usage:
+*   change FILE, VIDEO & LOGFILE according to your setup
 
 as standalone:
 
@@ -47,6 +47,7 @@ add
         #'--log-level=debug',
         'babymonitor:app',
     ),
+    }
 restart
 
     /etc/init.d/gunicorn restart
