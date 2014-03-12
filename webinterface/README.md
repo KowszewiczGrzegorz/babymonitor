@@ -15,15 +15,30 @@ dependencies:
 
 
 usage:
-*   change FILE, VIDEO & LOGFILE according to your setup
+*   edit babymonitor.py
+    change the following options if needed:
+
+        HOST = '0.0.0.0'
+        PORT = 8080
+        AUDIO = 'stream'
+        AUDIOSTREAM = 'http://babymon.home:8000/baby'
+        ALT_AUDIOSTREAM = None
+        FILE = 'pifone.mp3'
+        PLAY = 'aplay'
+        VIDEO = True
+        VIDEOURL = 'http://192.168.178.52/mjpeg.cgi'
+        LOGFILE = '/var/www/logs/babymonitor.log'
+
+only 1 AUDIO type is supported (fifo or stream)
+
 
 as standalone:
 
         python babymonitor.py
 
-the website will be available @
+the website will be available (default settings)@
 
-        http://127.0.0.1:5000
+        http://<<your server ip>>:8080
 
 
 with nginx & gunicorn:
