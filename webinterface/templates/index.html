@@ -40,8 +40,8 @@
 {% elif audiotyp == 'stream' %}
     <div class="col-md-6 col-md-offset-3 col-xs-12 col-sm-12">
         <p> Audio Stream Control <p>
-        <audio controls>
-            <source src="{{ audiostream }}/;">
+        <audio controls autoplay>
+            <source src="{{ audiostream }}">
             {% if alt_audiostream %}
                 <source src="{{ alt_audiostream }}/;">
             {% endif %}
